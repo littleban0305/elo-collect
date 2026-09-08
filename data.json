@@ -1,0 +1,58 @@
+{
+  "credits": 480,
+  "items": [
+    {
+      "id": 1,
+      "name": "AK-47 | Slate",
+      "category": "Rifle",
+      "value": 520,
+      "stock": 9,
+      "img": "https://placehold.co/640x480/png?text=AK-47+Slate"
+    },
+    {
+      "id": 2,
+      "name": "USP-S | Cortex",
+      "category": "Pistol",
+      "value": 460,
+      "stock": 12,
+      "img": "https://placehold.co/640x480/png?text=USP-S+Cortex"
+    },
+    {
+      "id": 3,
+      "name": "M4A1-S | Basilisk",
+      "category": "Rifle",
+      "value": 380,
+      "stock": 15,
+      "img": "https://placehold.co/640x480/png?text=M4A1-S+Basilisk"
+    },
+    {
+      "id": 4,
+      "name": "AWP | Atheris",
+      "category": "Sniper",
+      "value": 350,
+      "stock": 18,
+      "img": "https://placehold.co/640x480/png?text=AWP+Atheris"
+    }
+  ],
+  "holdings": [
+    {
+      "id": 1,
+      "name": "AK-47 | Slate",
+      "category": "Rifle",
+      "value": 520,
+      "stock": 9,
+      "img": "https://placehold.co/640x480/png?text=AK-47+Slate",
+      "holdingId": "a7519f1c-1f54-46ac-9d9e-74f6fb5df0df"
+    }
+  ],
+  "ledger": [
+    {
+      "kind": "確定性兌換",
+      "amount": -520,
+      "balance": 480,
+      "ref": "RED-AC1141B1",
+      "itemId": 1,
+      "createdAt": "2026-09-08T13:22:09.106Z"
+    }
+  ]
+}
