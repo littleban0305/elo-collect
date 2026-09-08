@@ -1,13 +1,32 @@
 {
-  "credits": 480,
+  "version": 3,
+  "users": [
+    {
+      "id": "u_demo",
+      "username": "elo_demo",
+      "displayName": "ELO Demo",
+      "credits": 1000,
+      "createdAt": "2026-09-08T13:27:12.415Z",
+      "role": "USER"
+    },
+    {
+      "id": "u_alice",
+      "username": "alice",
+      "displayName": "Alice",
+      "credits": 720,
+      "createdAt": "2026-09-08T13:27:12.415Z",
+      "role": "USER"
+    }
+  ],
   "items": [
     {
       "id": 1,
       "name": "AK-47 | Slate",
       "category": "Rifle",
       "value": 520,
-      "stock": 9,
-      "img": "https://placehold.co/640x480/png?text=AK-47+Slate"
+      "stock": 10,
+      "img": "https://placehold.co/640x480/png?text=AK-47+Slate",
+      "status": "AVAILABLE"
     },
     {
       "id": 2,
@@ -15,7 +34,8 @@
       "category": "Pistol",
       "value": 460,
       "stock": 12,
-      "img": "https://placehold.co/640x480/png?text=USP-S+Cortex"
+      "img": "https://placehold.co/640x480/png?text=USP-S+Cortex",
+      "status": "AVAILABLE"
     },
     {
       "id": 3,
@@ -23,7 +43,8 @@
       "category": "Rifle",
       "value": 380,
       "stock": 15,
-      "img": "https://placehold.co/640x480/png?text=M4A1-S+Basilisk"
+      "img": "https://placehold.co/640x480/png?text=M4A1-S+Basilisk",
+      "status": "AVAILABLE"
     },
     {
       "id": 4,
@@ -31,28 +52,17 @@
       "category": "Sniper",
       "value": 350,
       "stock": 18,
-      "img": "https://placehold.co/640x480/png?text=AWP+Atheris"
+      "img": "https://placehold.co/640x480/png?text=AWP+Atheris",
+      "status": "AVAILABLE"
     }
   ],
-  "holdings": [
-    {
-      "id": 1,
-      "name": "AK-47 | Slate",
-      "category": "Rifle",
-      "value": 520,
-      "stock": 9,
-      "img": "https://placehold.co/640x480/png?text=AK-47+Slate",
-      "holdingId": "a7519f1c-1f54-46ac-9d9e-74f6fb5df0df"
+  "holdings": [],
+  "ledger": [],
+  "transactions": [],
+  "sessions": {
+    "b947c12a-f986-4b19-be7d-dd976cd85fe5": {
+      "userId": "u_demo",
+      "createdAt": 1788874037192
     }
-  ],
-  "ledger": [
-    {
-      "kind": "確定性兌換",
-      "amount": -520,
-      "balance": 480,
-      "ref": "RED-AC1141B1",
-      "itemId": 1,
-      "createdAt": "2026-09-08T13:22:09.106Z"
-    }
-  ]
+  }
 }
