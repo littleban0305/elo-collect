@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELO Collect — 數位收藏品交換</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="pulse"></span>ELO <b>COLLECT</b></div>
+    <nav>
+      <button data-tab="market" class="nav-btn active">市場</button>
+      <button data-tab="collection" class="nav-btn">我的收藏</button>
+      <button data-tab="ledger" class="nav-btn">額度紀錄</button>
+    </nav>
+    <div class="credits" id="credits">1,000 Credits</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">DIGITAL COLLECTION MARKET</div>
+        <h1>把舊收藏，<span>換成下一件想要的。</span></h1>
+        <p>V0.1 Prototype：價格、庫存與每筆 Credits 異動都有清楚紀錄；這一版先專注於「確定性兌換」，不使用隨機結果。</p>
+        <div class="actions"><button class="primary" id="grant">開發模式 +500 Credits</button><button class="ghost" id="reset">重置 Demo</button></div>
+      </div>
+      <div class="hero-panel">
+        <span>AVAILABLE INVENTORY VALUE</span>
+        <strong id="inventoryValue">6,870</strong>
+        <small>測試資料總參考價值</small>
+      </div>
+    </section>
+
+    <div id="notice" class="notice hidden"></div>
+
+    <section id="market" class="tab-panel active">
+      <div class="section-title"><div><h2>目前可兌換</h2><p>直接選擇收藏品，不依賴隨機結果。</p></div></div>
+      <div id="marketGrid" class="grid"></div>
+    </section>
+
+    <section id="collection" class="tab-panel">
+      <div class="section-title"><div><h2>我的收藏</h2><p id="collectionCount">0 件</p></div></div>
+      <div id="collectionGrid" class="grid"></div>
+    </section>
+
+    <section id="ledger" class="tab-panel">
+      <div class="section-title"><div><h2>Credits 帳本</h2><p>每一次增加與扣除都留下紀錄。</p></div></div>
+      <div class="ledger-wrap"><table><thead><tr><th>類型</th><th>金額</th><th>餘額</th><th>參考編號</th></tr></thead><tbody id="ledgerBody"></tbody></table></div>
+    </section>
+  </main>
+
+  <footer>Prototype V0.1 · 純測試資料 · 尚未連接真實 Steam 交易</footer>
+  <script src="app.js"></script>
+</body>
+</html>
