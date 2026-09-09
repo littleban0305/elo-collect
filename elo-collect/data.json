@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "u_demo",
+      "username": "elo_demo",
+      "displayName": "ELO Demo",
+      "credits": 1000,
+      "role": "USER",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-08T13:30:44.128Z"
+    },
+    {
+      "id": "u_alice",
+      "username": "alice",
+      "displayName": "Alice",
+      "credits": 720,
+      "role": "USER",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-08T13:30:44.128Z"
+    },
+    {
+      "id": "u_admin",
+      "username": "admin",
+      "displayName": "ELO Admin",
+      "credits": 0,
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-08T13:30:44.128Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "item_ak_slate",
+      "name": "AK-47 | Slate",
+      "category": "Rifle",
+      "value": 520,
+      "stock": 10,
+      "img": "https://placehold.co/640x480/png?text=AK-47+Slate",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "item_usp_cortex",
+      "name": "USP-S | Cortex",
+      "category": "Pistol",
+      "value": 460,
+      "stock": 12,
+      "img": "https://placehold.co/640x480/png?text=USP-S+Cortex",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "item_m4_basilisk",
+      "name": "M4A1-S | Basilisk",
+      "category": "Rifle",
+      "value": 380,
+      "stock": 15,
+      "img": "https://placehold.co/640x480/png?text=M4A1-S+Basilisk",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "item_awp_atheris",
+      "name": "AWP | Atheris",
+      "category": "Sniper",
+      "value": 350,
+      "stock": 18,
+      "img": "https://placehold.co/640x480/png?text=AWP+Atheris",
+      "status": "AVAILABLE"
+    }
+  ],
+  "holdings": [],
+  "ledger": [],
+  "transactions": [],
+  "audit": [
+    {
+      "id": "audit_742742290ad0",
+      "actorUserId": "u_admin",
+      "action": "LOGIN",
+      "target": "u_admin",
+      "meta": {},
+      "createdAt": "2026-09-08T13:30:45.142Z"
+    }
+  ],
+  "sessions": {
+    "e725e6f9-4f54-4114-91dc-6a91613af75b": {
+      "userId": "u_admin",
+      "createdAt": 1788874245141
+    }
+  },
+  "settings": {
+    "currency": "Credits",
+    "version": "V1.0.0"
+  }
+}

@@ -23,7 +23,11 @@
       "id": "u_admin",
       "username": "admin",
       "displayName": "ELO Admin",
+<<<<<<< HEAD
       "credits": 9000,
+=======
+      "credits": 0,
+>>>>>>> fae249a60e515cdbb54518b91b166c130d3424c2
       "role": "ADMIN",
       "status": "ACTIVE",
       "createdAt": "2026-09-08T13:30:44.128Z"
@@ -68,6 +72,7 @@
     }
   ],
   "holdings": [],
+<<<<<<< HEAD
   "ledger": [
     {
       "id": "led_aa7ee0f332f1",
@@ -396,6 +401,10 @@
       "createdAt": "2026-09-08T13:51:00.785Z"
     }
   ],
+=======
+  "ledger": [],
+  "transactions": [],
+>>>>>>> fae249a60e515cdbb54518b91b166c130d3424c2
   "audit": [
     {
       "id": "audit_742742290ad0",
@@ -404,6 +413,7 @@
       "target": "u_admin",
       "meta": {},
       "createdAt": "2026-09-08T13:30:45.142Z"
+<<<<<<< HEAD
     },
     {
       "id": "audit_83ca7ce00245",
@@ -592,6 +602,8 @@
         "amount": 500
       },
       "createdAt": "2026-09-08T13:51:00.785Z"
+=======
+>>>>>>> fae249a60e515cdbb54518b91b166c130d3424c2
     }
   ],
   "sessions": {
